@@ -4,27 +4,26 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:AirlinesBugrina.Elements"
-             mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Background="#c9dfff" RenderTransformOrigin="0.243,0.494">
+             mc:Ignorable="d" d:DesignWidth="800" Height="232">
+    <Grid Background="#c9dfff" RenderTransformOrigin="0.243,0.494" Margin="0,0,0,10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="120"/>
             <ColumnDefinition Width="150"/>
             <ColumnDefinition Width="380"/>
             <ColumnDefinition Width="150"/>
         </Grid.ColumnDefinitions>
-        <Button Margin="0,82,10,334" Content="Подробнее" FontSize="16" Background="#ebac77" BorderBrush="#df7924" Foreground="White" HorizontalAlignment="Right" Width="100" />
-        <Label Content="1999 P." FontSize="22" Margin="0,26,18,382" HorizontalAlignment="Right" Width="84"/>
-        <Label Content="Победа" FontSize="20" Margin="10,26,0,382" HorizontalAlignment="Left" Width="84" Grid.Column="1"/>
-        <Label Content="05:00" FontSize="20" Margin="10,79,0,329" HorizontalAlignment="Left" Width="66" Grid.Column="1"/>
-        <Label Content="15.12.2023" FontSize="20" Margin="10,173,0,235" HorizontalAlignment="Left" Width="106" Grid.Column="1"/>
-        <Label Content="Пермь" FontSize="20" Margin="10,126,0,282" HorizontalAlignment="Left" Width="84" Grid.Column="1"/>
-        <Label Content="Победа" FontSize="20" Margin="10,26,0,382" HorizontalAlignment="Left" Width="84" Grid.Column="3"/>
-        <Label Content="05:01" FontSize="20" Margin="10,76,0,332" HorizontalAlignment="Left" Width="66" Grid.Column="3"/>
-        <Label Content="Пермь" FontSize="20" Margin="10,126,0,282" HorizontalAlignment="Left" Width="84" Grid.Column="3"/>
-        <Label Content="15.12.2023" FontSize="20" Margin="10,173,0,235" HorizontalAlignment="Left" Width="106" Grid.Column="3"/>
-        <Label Content="В пути : 0ч 1м " FontSize="20" Margin="0,79,0,329" HorizontalAlignment="Center" Width="144" Grid.Column="2"/>
-        <Grid Background="#ebac77" Grid.Column="2" Margin="0,0,0,256" Height="5" VerticalAlignment="Bottom"/>
+        <Button Margin="12,0,8,121" Content="Подробнее" FontSize="16" Background="#ebac77" BorderBrush="#df7924" Foreground="White" Height="32" VerticalAlignment="Bottom" />
+        <Label Content="1999 P." FontSize="22" Margin="20,0,16,171" Height="40" VerticalAlignment="Bottom"/>
+        <Label Content="Победа" FontSize="20" Margin="10,0,56,169" Grid.Column="1" Height="40" VerticalAlignment="Bottom"/>
+        <Label Content="05:00" FontSize="20" Margin="10,0,74,121" Grid.Column="1" Height="40" VerticalAlignment="Bottom"/>
+        <Label Content="15.12.2023" FontSize="20" Margin="10,0,34,22" Grid.Column="1" Height="40" VerticalAlignment="Bottom"/>
+        <Label Content="Пермь" FontSize="20" Margin="10,0,56,69" Grid.Column="1" Height="40" VerticalAlignment="Bottom"/>
+        <Label Content="Победа" FontSize="20" Margin="10,0,56,161" Grid.Column="3" Height="49" VerticalAlignment="Bottom"/>
+        <Label Content="05:01" FontSize="20" Margin="10,0,74,112" Grid.Column="3" Height="49" VerticalAlignment="Bottom"/>
+        <Label Content="Пермь" FontSize="20" Margin="10,0,56,61" Grid.Column="3" Height="49" VerticalAlignment="Bottom"/>
+        <Label Content="15.12.2023" FontSize="20" Margin="5,0,39,11" Grid.Column="3" Height="50" VerticalAlignment="Bottom"/>
+        <Label Content="В пути : 0ч 1м " FontSize="20" HorizontalAlignment="Center" Width="144" Grid.Column="2" Height="42" VerticalAlignment="Bottom" Margin="0,0,0,122"/>
+        <Grid Background="#ebac77" Grid.Column="2" Margin="0,0,0,50" Height="5" VerticalAlignment="Bottom"/>
 
     </Grid>
 </UserControl>
