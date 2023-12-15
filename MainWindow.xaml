@@ -10,7 +10,7 @@
         <Grid Height="70" VerticalAlignment="Top" Background="#898efb">
             <Image Source="Images/Airplane.png" Width="144" Height="70" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
             <Label Content="Управление авиалиниями" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="White" FontWeight="Bold" FontSize="16" Margin="100,0,0,0"/>
-            <Button VerticalAlignment="Center" Foreground="#898efb" FontSize="15" FontWeight="Bold" HorizontalAlignment="Left" Width="100" Height="26" Content="Выйти" Margin="670,0,0,0"/>
+            <Button Click="Exit" VerticalAlignment="Center" Foreground="#898efb" FontSize="15" FontWeight="Bold" HorizontalAlignment="Left" Width="100" Height="26" Content="Выйти" Margin="670,0,0,0"/>
         </Grid>
         <Frame x:Name="frame" NavigationUIVisibility="Hidden" Margin="0,70,0,0"/>
     </Grid>
