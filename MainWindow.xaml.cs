@@ -21,6 +21,7 @@ namespace AirlinesBugrina
     public partial class MainWindow : Window
     {
         public static MainWindow init;
+        
         public MainWindow()
         {
             InitializeComponent();
